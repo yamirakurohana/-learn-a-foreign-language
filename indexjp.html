@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bahasa Jepang untuk Pemula</title>
+    <link rel="stylesheet" href="stylejp.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="logo" href="#home">NihongoStart</a>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#hiragana">Hiragana</a>
+                <a href="#katakana">Katakana</a>
+                <a href="#kanji">Kanji</a>
+                <a href="#angka">Angka</a>
+                <a href="#kotoba">Kotoba</a>
+                <a href="#quiz">Latihan / Quiz</a>
+                <a href="#tentang">Tentang Website</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="kicker">Halaman Beranda</p>
+                    <h1>Belajar Bahasa Jepang untuk Pemula</h1>
+                    <p>
+                        Website ini membantu belajar huruf Jepang, angka, kanji, dan kosakata
+                        dengan mudah.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="#hiragana">Mulai Belajar</a>
+                        <a class="btn btn-ghost" href="#quiz">Coba Quiz</a>
+                    </div>
+                </div>
+                <figure class="hero-figure">
+                    <img src="Beautiful Landscape Of Mt Fuji With Chureito Pagoda Japan Photo _ JPG Free Download - Pikbest.jpeg" alt="Ilustrasi Jepang">
+                </figure>
+            </div>
+        </section>
+
+        <section class="progress-section">
+            <div class="container card">
+                <h2>Progress Belajar</h2>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <p id="progressText">0% selesai</p>
+                <div class="check-grid">
+                    <label><input class="progress-check" data-weight="12" type="checkbox"> Saya sudah memahami Hiragana</label>
+                    <label><input class="progress-check" data-weight="12" type="checkbox"> Saya sudah memahami Katakana</label>
+                    <label><input class="progress-check" data-weight="12" type="checkbox"> Saya sudah memahami Kanji dasar</label>
+                    <label><input class="progress-check" data-weight="12" type="checkbox"> Saya sudah memahami Angka Jepang</label>
+                    <label><input class="progress-check" data-weight="12" type="checkbox"> Saya sudah memahami Kotoba dasar</label>
+                </div>
+            </div>
+        </section>
+
+        <section id="hiragana" class="section">
+            <div class="container">
+                <h2>Hiragana</h2>
+                <p>Hiragana adalah huruf dasar dalam bahasa Jepang yang digunakan untuk kata asli Jepang dan partikel.</p>
+                <h3>Tabel Huruf Hiragana</h3>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Hiragana</th><th>Romaji</th><th>Arti</th><th>Audio</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>あ</td><td>a</td><td>a</td><td><button class="speak-btn" data-text="あ">Dengar</button></td></tr>
+                            <tr><td>い</td><td>i</td><td>i</td><td><button class="speak-btn" data-text="い">Dengar</button></td></tr>
+                            <tr><td>う</td><td>u</td><td>u</td><td><button class="speak-btn" data-text="う">Dengar</button></td></tr>
+                            <tr><td>え</td><td>e</td><td>e</td><td><button class="speak-btn" data-text="え">Dengar</button></td></tr>
+                            <tr><td>お</td><td>o</td><td>o</td><td><button class="speak-btn" data-text="お">Dengar</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Cara membaca:</strong> baca setiap huruf sesuai romaji satu per satu.</p>
+                <p><strong>Contoh kata:</strong> あさ (asa) = pagi <button class="speak-btn" data-text="あさ">Dengar</button></p>
+            </div>
+        </section>
+
+        <section id="katakana" class="section alt">
+            <div class="container">
+                <h2>Katakana</h2>
+                <p>Katakana digunakan untuk kata serapan dari bahasa asing, nama asing, dan onomatope.</p>
+                <h3>Tabel Huruf Katakana</h3>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Katakana</th><th>Romaji</th><th>Arti</th><th>Audio</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>ア</td><td>a</td><td>a</td><td><button class="speak-btn" data-text="ア">Dengar</button></td></tr>
+                            <tr><td>イ</td><td>i</td><td>i</td><td><button class="speak-btn" data-text="イ">Dengar</button></td></tr>
+                            <tr><td>ウ</td><td>u</td><td>u</td><td><button class="speak-btn" data-text="ウ">Dengar</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Contoh kata serapan:</strong> コーヒー (koohii) = kopi <button class="speak-btn" data-text="コーヒー">Dengar</button></p>
+            </div>
+        </section>
+
+        <section id="kanji" class="section">
+            <div class="container">
+                <h2>Kanji</h2>
+                <p>Kanji adalah karakter Tionghoa yang digunakan dalam tulisan Jepang untuk mewakili makna.</p>
+                <h3>Kanji Dasar</h3>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Kanji</th><th>Arti</th><th>Cara Baca</th><th>Audio</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>山</td><td>gunung</td><td>yama</td><td><button class="speak-btn" data-text="やま">Dengar</button></td></tr>
+                            <tr><td>水</td><td>air</td><td>mizu</td><td><button class="speak-btn" data-text="みず">Dengar</button></td></tr>
+                            <tr><td>火</td><td>api</td><td>hi</td><td><button class="speak-btn" data-text="ひ">Dengar</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="angka" class="section alt">
+            <div class="container">
+                <h2>Angka Jepang</h2>
+                <p>Angka dalam bahasa Jepang bisa ditulis menggunakan kanji dan dibaca dengan hiragana/romaji.</p>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Kanji</th><th>Hiragana</th><th>Romaji</th><th>Arti</th><th>Audio</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>一</td><td>いち</td><td>ichi</td><td>1</td><td><button class="speak-btn" data-text="いち">Dengar</button></td></tr>
+                            <tr><td>二</td><td>に</td><td>ni</td><td>2</td><td><button class="speak-btn" data-text="に">Dengar</button></td></tr>
+                            <tr><td>三</td><td>さん</td><td>san</td><td>3</td><td><button class="speak-btn" data-text="さん">Dengar</button></td></tr>
+                            <tr><td>四</td><td>し / よん</td><td>shi / yon</td><td>4</td><td><button class="speak-btn" data-text="よん">Dengar</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="kotoba" class="section">
+            <div class="container">
+                <h2>Kotoba (Kosakata)</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr><th>Jepang</th><th>Romaji</th><th>Arti</th><th>Audio</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>ねこ</td><td>neko</td><td>kucing</td><td><button class="speak-btn" data-text="ねこ">Dengar</button></td></tr>
+                            <tr><td>いぬ</td><td>inu</td><td>anjing</td><td><button class="speak-btn" data-text="いぬ">Dengar</button></td></tr>
+                            <tr><td>がっこう</td><td>gakkou</td><td>sekolah</td><td><button class="speak-btn" data-text="がっこう">Dengar</button></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section alt">
+            <div class="container">
+                <h2>Latihan / Quiz</h2>
+                <form id="quizForm" class="quiz-card">
+                    <div class="question">
+                        <p>1) Apa huruf あ dibaca?</p>
+                        <label><input type="radio" name="q1" value="a"> a</label>
+                        <label><input type="radio" name="q1" value="i"> i</label>
+                        <label><input type="radio" name="q1" value="u"> u</label>
+                    </div>
+                    <div class="question">
+                        <p>2) Arti kata ねこ adalah?</p>
+                        <label><input type="radio" name="q2" value="kucing"> kucing</label>
+                        <label><input type="radio" name="q2" value="anjing"> anjing</label>
+                        <label><input type="radio" name="q2" value="burung"> burung</label>
+                    </div>
+                    <button type="submit" class="btn">Periksa Jawaban</button>
+                    <p id="quizResult"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="tentang" class="section">
+            <div class="container card">
+                <h2>Tentang Website</h2>
+                <p>Website ini dibuat untuk membantu pemula belajar bahasa Jepang dengan materi ringkas, audio pelafalan, dan latihan interaktif.</p>
+                <p>Fitur tambahan: audio pelafalan, quiz interaktif, gambar ilustrasi, dan progress belajar.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="jsjp.js"></script>
+</body>
+</html>

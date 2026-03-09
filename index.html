@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu Utama - Belajar Bahasa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="topbar">
+        <div class="container">
+            <h1>Menu Utama</h1>
+            <p>Akses semua halaman belajar dan akun dari satu tempat.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="panel">
+            <div class="panel-head">
+                <h2>Daftar Halaman</h2>
+                <input id="searchInput" type="text" placeholder="Cari halaman...">
+            </div>
+            <p id="resultInfo" class="muted"></p>
+            <div id="pageGrid" class="grid"></div>
+        </section>
+    </main>
+
+    <script src="js.js"></script>
 </body>
 </html>
